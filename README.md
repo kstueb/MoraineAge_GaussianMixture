@@ -22,7 +22,7 @@ The main module is `moraine_age_calculator.py`. This is a well document code tha
 
 # Example
 
-Here we use compiled CRN moraine ages from the literature for the greater Pamir region. The data area stored in the files `data_compilation_0mmky.csv` and `data_compilation_1mmky.csv` - they contain age data calculated with erosion rates of 0 mm/ky and 1 mm/ky and thus represent minimum ages and best-fit estimates.
+Here we use compiled CRN moraine ages from the literature for the greater Pamir region. The data are stored in the files `data_compilation_0mmky.csv` and `data_compilation_1mmky.csv` - they contain age data calculated with erosion rates of 0 mm/ky and 1 mm/ky and thus represent minimum ages and best-fit estimates.
 
 The CSV file has the following format (Example:):
 
