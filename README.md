@@ -4,7 +4,7 @@ This code is part of Stübner, K., Bookhagen, B., Merchel, S., Lachner, J., Gado
 
 Please cite this publication when using this code.
 
-Contact [Konstanze Stübner](mailto:kstueb@gmail.com?subject=[GitHub]%20MoraineAge_GaussianFit) or Bodo Bookhagen with questions.
+Contact [Konstanze Stübner](mailto:kstueb@gmail.com?subject=[GitHub]%20MoraineAge_GaussianMixture) or [Bodo Bookhagen](mailto:bodo.bookhagen@uni-potsdam.de?subject=[GitHub]%20MoraineAge_GaussianMixture) with questions.
 
 # Contents
 
