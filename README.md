@@ -37,7 +37,7 @@ Mandatory columns are (in any order):
 `intErr`: internal Error (in ky)
 
 Additional columns ignored by the code are:  
-`ExtErr`: external Error (in ky)  
+`extErr`: external Error (in ky)  
 `sample`: Sample Name  
 `reference`: Reference
 
