@@ -1,6 +1,6 @@
 # Moraine age calculation from CRN samples using a Gaussian Fitting approach
 
-This code is part of Stübner, K., Bookhagen, B., Merchel, S., Lachner, J., Gadoev, M. (in review): *Unraveling the Pleistocene glacial history of the Pamir Mountains, Central Asia*
+This code is part of Stübner, K., Bookhagen, B., Merchel, S., Lachner, J., Gadoev, M. (2021): *Unravelling the Pleistocene glacial history of the Pamir Mountains, Central Asia* 257, 106857. https://doi.org/10.1016/j.quascirev.2021.106857
 
 Please cite this publication when using this code.
 
