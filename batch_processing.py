@@ -154,10 +154,10 @@ def main():
 
             L = '{:s},{:s},{:d},{:.0f}'.format(this_group,dfn[grn].to_numpy()[0],dfn.shape[0],kde.bandwidth)
             report = Gaussian_fitting_report(result)
-            #preferred age peak
+            #preferred age peak, 10% error
             for r in report:
                 if r['Area']>=5:
-                    L = '{:s},{:.0f}±{:.0f}'.format(L, r['Mu'], r['Sigma'])
+                    L = '{:s},{:.0f}±{:.0f}'.format(L, r['Mu'], 0.1*r['Mu'])
                     break
             for r in report:
                 print('{:.1f}±{:.1f} ky ({:.0f}%)'.format(r['Mu'], r['Sigma'], r['Area']))
@@ -176,7 +176,7 @@ def main():
     reportFile.write('Age Density Function: sigma = {:s}\n'.format(M.ADFsigma))
     reportFile.write('Kernel Density Estimation: weight = {:s}\n'.format(M.KDEweight))
     reportFile.write('Bandwith optimized for each data set\n\n')
-    reportFile.write('group,group name,n,bw,suggested peak,Gaussians\n')
+    reportFile.write('group,group name,n,bw,suggested age,Gaussians\n')
     for L in LL:
         reportFile.write(L)
     reportFile.close()
